@@ -1,0 +1,68 @@
+    body{
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #36454f;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: #E2F1E7;
+    }
+
+    .grid-container{
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      background-color: #000000;
+      width: 748px;
+    }
+
+    .item{
+      background-color: #f0f1ec;
+    }
+
+    .red{
+      background-color: #e72f24;
+    }
+
+    .white{
+      background-color: #f0f1ec;
+    }
+
+    .blue{
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+
+    .yellow{
+      background-color: #f9d01e;
+    }
+
+    .black{
+      background-color: #232629;
+    }
+
+    .r1c2{
+      grid-column: span 3;
+    }
+
+    .r2c1{
+      grid-row: span 2;
+    }
+
+    .r2c2{
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .r4c4{
+      grid-row-start: 3;
+      grid-row-end: 5;
+    }
+
+    .last-row{
+      grid-row-start: 4;
+    }
